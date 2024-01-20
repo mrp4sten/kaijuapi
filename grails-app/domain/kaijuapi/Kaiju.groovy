@@ -4,7 +4,7 @@ import grails.compiler.GrailsCompileStatic
 import grails.rest.Resource
 
 @GrailsCompileStatic
-@Resource(uri='/monsters', formats=['json', 'xml'])
+@Resource(uri='/kaijus', formats=['json', 'xml'])
 class Kaiju {
 
     String name

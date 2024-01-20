@@ -12,6 +12,6 @@ class UrlMappings {
         "500"(view:'/error')
         "404"(view:'/notFound')
 
-        "/monsters"(resources:"kaiju")
+        "/kaijus"(resources:"kaiju")
     }
 }
