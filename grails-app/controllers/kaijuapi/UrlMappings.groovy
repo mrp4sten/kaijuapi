@@ -13,5 +13,7 @@ class UrlMappings {
         "404"(view:'/notFound')
 
         "/kaijus"(resources:"kaiju")
+        "/battles"(resources:"battle")
+        "/movies"(resources:"movie")
     }
 }
