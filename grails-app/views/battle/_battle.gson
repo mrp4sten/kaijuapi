@@ -4,4 +4,4 @@ model {
     Battle battle
 }
 
-json g.render(battle, [expand: ['kaijus'], resolveTemplate: false])
+json g.render(battle, [expand: ['kaijus', 'winner', 'loser'], resolveTemplate: false])

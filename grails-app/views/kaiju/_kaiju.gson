@@ -1,0 +1,7 @@
+import kaijuapi.Kaiju
+
+model {
+    Kaiju kaiju
+}
+
+json g.render(kaiju)
