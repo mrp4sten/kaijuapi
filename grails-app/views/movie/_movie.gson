@@ -1,0 +1,7 @@
+import kaijuapi.Movie
+
+model {
+    Movie movie
+}
+
+json g.render(movie, [expand: ['kaijus'], resolveTemplate: false])

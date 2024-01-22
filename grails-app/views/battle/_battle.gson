@@ -1,0 +1,7 @@
+import kaijuapi.Battle
+
+model {
+    Battle battle
+}
+
+json g.render(battle, [expand: ['kaijus'], resolveTemplate: false])

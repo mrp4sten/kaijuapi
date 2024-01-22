@@ -3,6 +3,9 @@ package kaijuapi
 import grails.compiler.GrailsCompileStatic
 import grails.rest.Resource
 
+/**
+ * Represents a movie from Kaijus.
+ */
 @GrailsCompileStatic
 @Resource(uri='/movies', formats=['json', 'xml'])
 class Movie {
